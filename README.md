@@ -259,6 +259,8 @@ All 1,053 subscribers are male — there are zero female subscribers in the data
 ## 📊 Power BI Dashboard
 
 The cleaned dataset was visualized in Power BI to provide an interactive summary for non-technical stakeholders. All visuals respond dynamically to four slicers: **Shipping Type**, **Category**, **Subscription Status**, and **Gender**.
+![The customer behavior dashboard build in power bi](.dashboard.png)
+
 
 ### KPI Cards
 
@@ -329,38 +331,8 @@ The cleaned dataset was visualized in Power BI to provide an interactive summary
 
 ---
 
-## 📁 Project Structure
 
 ```
-customer-behavior-analysis/
-│
-├── notebooks/
-│   └── eda_cleaning.ipynb        # Python EDA and data cleaning
-│
-├── sql/
-│   ├── q1_revenue_by_gender.sql
-│   ├── q2_high_value_discounters.sql
-│   ├── q3_top_rated_products.sql
-│   ├── q4_shipping_spend.sql
-│   ├── q5_subscriber_comparison.sql
-│   ├── q6_discount_products.sql
-│   ├── q7_full_price_products.sql
-│   ├── q8_loyalty_segmentation.sql
-│   ├── q9_top_products_per_category.sql
-│   ├── q10_repeat_buyer_subscriptions.sql
-│   ├── q11_revenue_by_age_group.sql
-│   └── q12_subscriptions_by_gender.sql
-│
-├── data/
-│   └── (raw dataset — not tracked)
-│
-├── report/
-│   └── customer_behavior_report.docx
-│
-└── README.md
-```
-
----
 
 ## 🚀 How to Run
 

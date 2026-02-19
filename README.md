@@ -259,7 +259,7 @@ All 1,053 subscribers are male — there are zero female subscribers in the data
 ## 📊 Power BI Dashboard
 
 The cleaned dataset was visualized in Power BI to provide an interactive summary for non-technical stakeholders. All visuals respond dynamically to four slicers: **Shipping Type**, **Category**, **Subscription Status**, and **Gender**.
-![The customer behavior dashboard build in power bi](.dashboard.png)
+![The customer behavior dashboard build in power bi](./dashboard.png)
 
 
 ### KPI Cards

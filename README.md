@@ -1,14 +1,10 @@
-# 🛍️ Customer Behavior Analysis
+## Customer Behavior Analysis
 
-> An end-to-end data analysis project exploring customer spending patterns, product preferences, subscription behavior, and demographic segmentation across **3,900 retail transactions**.
+An end-to-end data analysis project exploring customer spending patterns, product preferences, subscription behavior, and demographic segmentation across **3,900 retail transactions**.
 
----
-
-## 📋 Project Overview
+## Project Overview
 
 This project analyzes a retail dataset to uncover actionable insights about customer behavior. The analysis was conducted in two stages: **Exploratory Data Analysis (EDA) in Python**, followed by **structured business querying in PostgreSQL**.
-
----
 
 ## 📦 Dataset
 
@@ -31,7 +27,7 @@ This project analyzes a retail dataset to uncover actionable insights about cust
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -41,9 +37,8 @@ This project analyzes a retail dataset to uncover actionable insights about cust
 | PostgreSQL | Business analysis and structured queries |
 | SQL (CTEs, Window Functions) | Advanced analytical queries |
 
----
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (Python)
 
@@ -89,7 +84,6 @@ df['purchase_frequency_days'] = df['frequency_of_purchases'].map(frequency_mappi
 **Redundant Column Removal**
 After inspection, `discount_applied` and `promo_code_used` were identical across all rows. `promo_code_used` was dropped.
 
----
 
 ### 2. Database Connection
 
@@ -256,7 +250,7 @@ All 1,053 subscribers are male — there are zero female subscribers in the data
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The cleaned dataset was visualized in Power BI to provide an interactive summary for non-technical stakeholders. All visuals respond dynamically to four slicers: **Shipping Type**, **Category**, **Subscription Status**, and **Gender**.
 ![The customer behavior dashboard build in power bi](./dashboard.png)
@@ -313,7 +307,7 @@ The cleaned dataset was visualized in Power BI to provide an interactive summary
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 ### 1. Grow the Subscription Program
 - **Target Loyal customers** (2,339) who haven't subscribed — they already demonstrate commitment and are the highest-value conversion targets
@@ -334,11 +328,11 @@ The cleaned dataset was visualized in Power BI to provide an interactive summary
 
 ```
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/customer-behavior-analysis.git
+   git clone https://github.com/AinamaniDM/customer_behavior_analysis
    ```
 
 2. **Install Python dependencies**
@@ -348,16 +342,12 @@ The cleaned dataset was visualized in Power BI to provide an interactive summary
 
 3. **Set up PostgreSQL** — create a database named `customer_behavior_db`
 
-4. **Run the notebook** — open `notebooks/eda_cleaning.ipynb` and execute all cells to clean the data and load it into PostgreSQL
+4. **Run the notebook** — open `customer_behavior.ipynb` and execute all cells to clean the data and load it into PostgreSQL
 
-5. **Run SQL queries** — execute any query from the `sql/` folder in your PostgreSQL client of choice
+5. **Run SQL queries** — execute any query from the `customer_behavior.sql`in your PostgreSQL client of choice
 
 ---
 
-## 📬 Contact
+## Contact
 
 Feel free to open an issue or reach out if you have questions or suggestions about this project.
-
----
-
-*Built with Python, PostgreSQL, and curiosity.*
